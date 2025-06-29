@@ -1,0 +1,33 @@
+{
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "fps": 30
+  },
+  "hand_tracking": {
+    "max_hands": 1,
+    "detection_confidence": 0.7,
+    "tracking_confidence": 0.5
+  },
+  "gesture_sensitivity": {
+    "rotation_multiplier": 0.5, 
+    "translation_multiplier": 3.0,
+    "zoom_multiplier": 1.5,
+    "pinch_threshold": 0.05,
+    "smoothing": {
+      "rotation": 0.1,
+      "translation": 0.1,
+      "scale": 0.05
+    }
+  },
+  "websocket": {
+    "host": "localhost",
+    "port": 8765
+  },
+  "model": {
+    "auto_rotate_speed": 0.005,
+    "default_scale": 1.0,
+    "max_scale": 3.0,
+    "min_scale": 0.2
+  }
+}
